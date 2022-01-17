@@ -1,0 +1,25 @@
+W_t: 0.02
+W_w: 0.3
+W_pa: 100.0
+W_xy_N: 3000.0
+W_z_N: 3000.0
+W_q_N: 0.0
+W_qxy_P: 3000.0
+W_qz_P: 0.0
+W_v_N: 100.0
+W_w_N: 10.0
+W_pld_N: 0.0
+W_sv_slack: 10.0
+W_lc_slack: 10.0
+
+exp_decay_pa: 0.1
+exp_decay_pa_start: 0
+# Decay at last third of the trajectory
+exp_decay_lc: 10.0
+exp_decay_lc_start: 20
+exp_decay_sv: 10.0
+exp_decay_sv_start: 20
+
+# Minimum and maximum maneuver time
+t_min: 0.05
+t_max: 5.0

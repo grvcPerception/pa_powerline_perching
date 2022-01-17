@@ -1,0 +1,17 @@
+# Relative paths to parameter files
+quad_config: "quad_parameters.yaml"
+lines_config: "upside_down/line_parameters.yaml"
+perching_costs: "upside_down/perching_costs.yaml"
+recovery_costs: "upside_down/recovery_costs.yaml"
+reference: "upside_down/reference.yaml"
+xinit: "upside_down/xinit.yaml"
+
+### Other parameters
+# Show verbose information
+verbose: false
+
+# Minimum allowed height
+z_min: 0.8
+
+# Solver timeout (leave large if testing)
+solver_timeout: 200.0

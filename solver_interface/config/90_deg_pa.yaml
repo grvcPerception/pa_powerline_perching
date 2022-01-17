@@ -1,0 +1,18 @@
+
+# Relative paths to parameter files
+quad_config: "quad_parameters.yaml"
+lines_config: "90_deg_pa/line_parameters.yaml"
+perching_costs: "90_deg_pa/perching_costs.yaml"
+recovery_costs: "90_deg_pa/recovery_costs.yaml"
+reference: "90_deg_pa/reference.yaml"
+xinit: "90_deg_pa/xinit.yaml"
+
+### Other parameters
+# Show verbose information
+verbose: false
+
+# Minimum allowed height
+z_min: 0.8
+
+# Solver timeout (leave large if testing)
+solver_timeout: 200.0

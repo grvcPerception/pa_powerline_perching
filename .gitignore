@@ -1,0 +1,6 @@
+*/*.out
+*/*.csv
+*/*.gif
+
+# Ignore all . folders
+.*/ 

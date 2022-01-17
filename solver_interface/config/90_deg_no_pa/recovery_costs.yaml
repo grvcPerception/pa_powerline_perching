@@ -1,0 +1,24 @@
+W_t: 0.08
+W_w: 0.3
+W_pa: 0.0
+W_xy_N: 0.5
+W_z_N: 0.1
+W_q_N: 0.0  
+W_qxy_P: 1000.0
+W_qz_P: 0.01
+W_v_N: 1000.0
+W_w_N: 10.0
+W_pld_N: 0.0
+W_sv_slack: 0.0
+W_lc_slack: 0.0
+
+exp_decay_pa: 0
+exp_decay_pa_start: 0
+exp_decay_lc: 0
+exp_decay_lc_start: 0
+exp_decay_sv: 0
+exp_decay_sv_start: 0
+
+# Minimum and maximum maneuver time
+t_min: 0.5
+t_max: 2.0

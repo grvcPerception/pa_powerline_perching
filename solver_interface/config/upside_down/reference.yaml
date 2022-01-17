@@ -1,0 +1,18 @@
+# Final position
+px:  -4.0    
+py:   0.0000 
+pz:   3.61   
+
+# Final orientation
+qw:   0.0000
+qx:   0.0000
+qy:   1.0000
+qz:   0.0001
+
+# Final linear and angular velocities (typically 0)
+vx: 0.0
+vy: 0.0
+vz: 0.0
+wx: 0.0
+wy: 0.0
+wz: 0.0

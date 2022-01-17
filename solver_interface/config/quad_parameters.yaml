@@ -1,0 +1,38 @@
+g: 9.8066 # Gravity
+m: 0.8 # Mass
+c_t: 0.016 # Rotor drag torque constant
+max_u: 40.0 # Maximum thrust speed (rotor angular acceleration/deceleration) in N/s
+# max_tr: 20.0 # Maximum thrust (currently fixed in the NLP generation)
+
+# Inertia matrix
+Jxx: 0.03
+Jyy: 0.03
+Jzz: 0.05
+
+# Rotor displacements in X
+lx_0: 0.10 # 
+lx_1: -0.10 #
+lx_2: -0.10 # 
+lx_3: 0.10 # 
+
+# Rotor displacements in Y
+ly_0: -0.10 # 
+ly_1: 0.10 # 
+ly_2: -0.10 # 
+ly_3: 0.10 # 
+
+# Collision ellipsoid radii
+rad_x: 0.2687 # 
+rad_y: 0.2687 # 
+rad_z: 0.09 # 
+
+# Camera focal distances and transform
+fx: 1.0
+fy: 1.0
+pBC_x: 0.0
+pBC_y: 0.0
+pBC_z: -0.09
+qBC_w: 0.5
+qBC_x: -0.5
+qBC_y: 0.5
+qBC_z: -0.5
