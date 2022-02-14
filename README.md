@@ -1,6 +1,11 @@
 # Perception-Aware Perching on Powerlines with Multirotors
-This repo contains the code for the NLP-based perching trajectory generation presented in our paper "Perception-Aware Perching on Powerlines with Multirotors". It also contains the following example trajectories:
 
+This repo contains the code for the NLP-based perching trajectory generation presented in our paper "Perception-Aware Perching on Powerlines with Multirotors".
+
+[![Perception-Aware Perching on Powerlines with Multirotors (Narrated Video)](https://img.youtube.com/vi/JsPavnsfpbk/0.jpg)](https://youtu.be/JsPavnsfpbk)
+
+In addition, we also provide the following example trajectories:
+ 
 Upside down             | 90º             |  90º (Perception Aware)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Upside Down](trajectory_visualization/upside_down.gif)  |  ![90º (No Perception Awareness)](trajectory_visualization/90_deg_no_pa.gif)  |  ![90º (With Perception Awareness)](trajectory_visualization/90_deg_pa.gif)
@@ -16,6 +21,10 @@ If you use this code in an academic context, please cite the following publicati
   year={2022}
 }
 ```
+
+**[IEEE publication](https://ieeexplore.ieee.org/document/9691874)** 
+
+**[Preprint version](https://zenodo.org/record/5947305/files/RAL22_Paneque_Perching.pdf?download=1)** 
 
 ## License 
 MIT License. Copyright (C) 2022 Julio L. Paneque, Jose Ramiro Martínez de Dios and Anibal Ollero (GRVC Robotics Lab, Universidad de Sevilla) and Drew Hanover, Sihao Sun, Ángel Romero and Davide Scaramuzza (Robotics and Perception Group, University of Zurich).
