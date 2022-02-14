@@ -2,13 +2,13 @@
 
 This repo contains the code for the NLP-based perching trajectory generation presented in our paper "Perception-Aware Perching on Powerlines with Multirotors".
 
-[![Perception-Aware Perching on Powerlines with Multirotors (Narrated Video)](https://img.youtube.com/vi/JsPavnsfpbk/0.jpg)](https://youtu.be/JsPavnsfpbk)
+[![Perception-Aware Perching on Powerlines with Multirotors (Narrated Video)](media/youtube_thumbnail.jpg)](https://youtu.be/JsPavnsfpbk)
 
 In addition, we also provide the following example trajectories:
  
 Upside down             | 90º             |  90º (Perception Aware)
 :-------------------------:|:-------------------------:|:-------------------------:
-![Upside Down](trajectory_visualization/upside_down.gif)  |  ![90º (No Perception Awareness)](trajectory_visualization/90_deg_no_pa.gif)  |  ![90º (With Perception Awareness)](trajectory_visualization/90_deg_pa.gif)
+![Upside Down](media/upside_down.gif)  |  ![90º (No Perception Awareness)](media/90_deg_no_pa.gif)  |  ![90º (With Perception Awareness)](media/90_deg_pa.gif)
 
 ## Citing 
 If you use this code in an academic context, please cite the following publication:
