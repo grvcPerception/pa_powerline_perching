@@ -34,7 +34,7 @@ This is research code, expect that it changes often and any fitness for a partic
 This work has dependencies on other libraries which are individually cited when appearing.
 
 ## Requirements 
-The code was tested with Ubuntu 18.04, Matlab R2020b, FORCESPRO 5.1.0, Casadi 3.5.1, g++ 10.3.0 and libYAML-cpp 0.5. Compatibility with other versions should be possible but is not tested.
+The code was tested with Ubuntu 18.04, Matlab R2020b, FORCESPRO 5.1.0, Casadi 3.5.1, g++ 10.3.0 and libYAML-cpp 0.5. Compatibility with other versions should be possible but has not been tested.
 
 ## Installation and usage
 
