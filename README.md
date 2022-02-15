@@ -1,6 +1,6 @@
 # Perception-Aware Perching on Powerlines with Multirotors
 
-This repo contains the code for the NLP-based perching trajectory generation presented in our paper "Perception-Aware Perching on Powerlines with Multirotors".
+This repo contains the code for the NLP-based perching trajectory generation presented in our paper [Paneque et al. RA-L'22](https://rpg.ifi.uzh.ch/docs/RAL22_Paneque.pdf).
 
 [![Perception-Aware Perching on Powerlines with Multirotors (Narrated Video)](media/youtube_thumbnail.jpg)](https://youtu.be/JsPavnsfpbk)
 
@@ -13,18 +13,19 @@ Upside down             | 90º             |  90º (Perception Aware)
 ## Citing 
 If you use this code in an academic context, please cite the following publication:
 
+Paneque, J. L., Martinez-de-Dios, J. R., Ollero, A., Hanover, D., Sun, S., Romero, A., & Scaramuzza, D. (2022). **Perception-Aware Perching on Powerlines with Multirotors**. IEEE Robotics and Automation Letters.
+
 ```
 @article{paneque2022perching,
-  title={Perception-Aware Perching on Powerlines with Multirotors},
-  author={Paneque, J. L., Martínez-de-Dios, J. R., Ollero, A., Hanover, D., Sun, S., Romero, A. and Scaramuzza, D.},
-  journal={IEEE Robotics and Automation Letters},
-  year={2022}
-}
+  author={Paneque, Julio L. and Dios, Jose Ramiro Martínez-de and Ollero, Anibal and Hanover, Drew and Sun, Sihao and Romero, Angel and Scaramuzza, Davide},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Perception-Aware Perching on Powerlines With Multirotors}, 
+  year={2022},
+  volume={7},
+  number={2},
+  pages={3077-3084},
+  doi={10.1109/LRA.2022.3145514}}
 ```
-
-**[IEEE publication](https://ieeexplore.ieee.org/document/9691874)** 
-
-**[Preprint version](https://zenodo.org/record/5947305/files/RAL22_Paneque_Perching.pdf?download=1)** 
 
 ## License 
 MIT License. Copyright (C) 2022 Julio L. Paneque, Jose Ramiro Martínez de Dios and Anibal Ollero (GRVC Robotics Lab, Universidad de Sevilla) and Drew Hanover, Sihao Sun, Ángel Romero and Davide Scaramuzza (Robotics and Perception Group, University of Zurich).
