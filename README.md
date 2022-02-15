@@ -13,7 +13,7 @@ Upside down             | 90º             |  90º (Perception Aware)
 ## Citing 
 If you use this code in an academic context, please cite the following publication:
 
-Paneque, J. L., Martinez-de-Dios, J. R., Ollero, A., Hanover, D., Sun, S., Romero, A., & Scaramuzza, D. (2022). **Perception-Aware Perching on Powerlines with Multirotors**. IEEE Robotics and Automation Letters.
+Paneque, J. L., Martinez-de-Dios, J. R., Ollero, A., Hanover, D., Sun, S., Romero, A., & Scaramuzza, D. (2022). **Perception-Aware Perching on Powerlines with Multirotors**. IEEE Robotics and Automation Letters ([PDF](https://rpg.ifi.uzh.ch/docs/RAL22_Paneque.pdf))
 
 ```
 @article{paneque2022perching,
