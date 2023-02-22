@@ -55,7 +55,7 @@ This will generate all the required files and copy them to the `solver_interface
 After the solver is generated, it can be used from the C++ interface to compute the required perching trajectories. To compile the interface, navigate to `solver_interface` and run:
 
 ```
-g++ -o compute_perching_traj -Iinclude -std=c++17 src/perch_recovery_planner.cpp src/parameters/quad.cpp src/parameters/lines.cpp src/parameters/costs.cpp src/parameters/reference.cpp src/parameters/xinit.cpp extern/solver/PerchingSolver/lib/libPerchingSolver.so extern/solver/PerchingSolver_casadi2forces.c extern/solver/PerchingSolver_casadi.c -lm -lyaml-cpp
+g++ -o compute_perching_traj -Iinclude -std=c++17 src/perch_recovery_planner.cpp src/parameters/quad.cpp src/parameters/lines.cpp src/parameters/costs.cpp src/parameters/reference.cpp src/parameters/xinit.cpp extern/solver/PerchingSolver/lib/libPerchingSolver.so extern/solver/PerchingSolver_adtool2forces.c extern/solver/PerchingSolver_casadi.c -lm -lyaml-cpp
 ```
 Once the code is compiled, it can be run given a path to a `YAML` file with the desired problem. This file provides the paths for the following sub-files (also in `YAML` format):
 
