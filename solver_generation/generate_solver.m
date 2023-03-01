@@ -72,7 +72,7 @@ codeoptions.legacy_interface = 1;
 codeoptions.avx = 1;
 codeoptions.sse = 1;
 
-%codeoptions.platform = 'Gnu-x86_64'; %comment out if only use for simulation
+% codeoptions.platform = 'Gnu-x86_64'; % for additional optimizations (needs license)
 % codeoptions.neon = 2;
 codeoptions.embedded_timing = 1;
 codeoptions.nlp.ad_tool = 'casadi-351';
@@ -97,7 +97,9 @@ FORCES_NLP(model, codeoptions);
 copyfile PerchingSolver_adtool2forces.c ../solver_interface/extern/solver/ %for ForcesPro version 6
 copyfile PerchingSolver_casadi.c ../solver_interface/extern/solver/
 copyfile PerchingSolver_casadi.h ../solver_interface/extern/solver/
+[~,~,~] = mkdir("../solver_interface/extern/solver/PerchingSolver/lib");
 copyfile PerchingSolver/lib/libPerchingSolver.so ../solver_interface/extern/solver/PerchingSolver/lib/
+[~,~,~] = mkdir("../solver_interface/extern/solver/PerchingSolver/include");
 copyfile PerchingSolver/include/PerchingSolver.h ../solver_interface/extern/solver/PerchingSolver/include/
     
 %% Functions
