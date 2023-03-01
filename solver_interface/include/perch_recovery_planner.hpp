@@ -2,7 +2,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <math_types.h>
-#include <casadi_2_forces.h>
+// #include <casadi_2_forces.h>
+#include <adtool_2_forces.h>
 #include <parameters/quad.h>
 #include <parameters/lines.h>
 #include <parameters/costs.h>
@@ -62,7 +63,8 @@ private:
     PerchingSolver_params nlp_params_;
     PerchingSolver_output_vector perching_output, recovery_output_;
     PerchingSolver_info perching_info_, recovery_info_;
-    PerchingSolver_extfunc forces_extfunc_eval_ = &PerchingSolver_casadi2forces;
+    //PerchingSolver_extfunc forces_extfunc_eval_ = &PerchingSolver_casadi2forces;
+    PerchingSolver_extfunc forces_extfunc_eval_ = &PerchingSolver_adtool2forces;
 
     void setQuad(const QuadParametersVec &_quad);
     void setLines(const LineParametersVec &_quad);

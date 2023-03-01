@@ -66,10 +66,13 @@ codeoptions.nlp.linear_solver = 'symm_indefinite';
 codeoptions.solvemethod = 'PDIP_NLP'; 
 codeoptions.solver_timeout = 1;
 
+%Add to generate code for ForcesPro version 5
+codeoptions.legacy_interface = 1;
+
 codeoptions.avx = 1;
 codeoptions.sse = 1;
 
-codeoptions.platform = 'Gnu-x86_64';
+%codeoptions.platform = 'Gnu-x86_64'; %comment out if only use for simulation
 % codeoptions.neon = 2;
 codeoptions.embedded_timing = 1;
 codeoptions.nlp.ad_tool = 'casadi-351';
@@ -90,7 +93,8 @@ codeoptions.sqp_nlp.reg_hessian = 5e-7;  % increase this parameter if exitflag=-
 FORCES_NLP(model, codeoptions);
 
 %% Move files to C++ interface
-copyfile PerchingSolver_casadi2forces.c ../solver_interface/extern/solver/
+%copyfile PerchingSolver_casadi2forces.c ../solver_interface/extern/solver/ %for ForcesPro version 5
+copyfile PerchingSolver_adtool2forces.c ../solver_interface/extern/solver/ %for ForcesPro version 6
 copyfile PerchingSolver_casadi.c ../solver_interface/extern/solver/
 copyfile PerchingSolver_casadi.h ../solver_interface/extern/solver/
 copyfile PerchingSolver/lib/libPerchingSolver.so ../solver_interface/extern/solver/PerchingSolver/lib/
